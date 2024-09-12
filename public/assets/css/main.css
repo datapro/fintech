@@ -1,0 +1,26 @@
+.sidebar{
+    background-color: rgb(238, 236, 236);
+    color: white;
+    padding-right: 8px;
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+}
+.navbar a{
+    color: rgb(17, 16, 16);
+    font-family: arial;
+    font-size: 12px;
+}
+img{
+    width: 50px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.navbar:hover{
+    background-color: rgba(128, 128, 128, 0.61);
+    cursor: pointer;
+}
